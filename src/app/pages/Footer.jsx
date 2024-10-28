@@ -1,5 +1,5 @@
+'use client'
 import React from 'react'
-'use-client'
 const Footer = () => {
   return (
     <div className='font-semibold text-center py-4 bg-cardBackground'>
