@@ -163,10 +163,11 @@ const First = () => {
                   src={banner}
                   alt={banner}
                   layout="responsive" // Adjusts image size responsively
-                  width={'300px'} // Set your aspect ratio width percentage
-                  height={'250px'} // Set your aspect ratio height percentage
+                  // width={300} // Set your aspect ratio width percentage
+                  // height={250} // Set your aspect ratio height percentage
                   style={{
                     maxWidth: '100%',
+                    minWidth:'30%',
                     height: 'auto', // Automatically adjusts height
                   }}
                 />
